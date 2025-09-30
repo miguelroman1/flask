@@ -12,7 +12,8 @@ def bienvenida():
 <h2>4.para dividir teclea la ruta 127.0.0.1:500/division/20/10</h2>
 <h2>5.para sacar el valor maximo teclea la ruta 127.0.0.1:500/max/20/10</h2>
 <h2>6.para sacar el valor minimo teclea la ruta 127.0.0.1:500/min/20/10</h2>
-<footer>NOMBRE:Roman Padilla Miguel Angel CORREO:23308060610314@cetis61.edu.mx</footer>
+<footer>NOMBRE:Roman Padilla Miguel Angel 
+    CORREO:23308060610314@cetis61.edu.mx  GRUPO:5-D</footer>
     '''
     return(mensaje)
 
