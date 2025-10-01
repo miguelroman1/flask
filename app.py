@@ -57,15 +57,19 @@ def division(v1,v2):
 def maximo(v1,v2):
     num1 = int(v1)
     num2 = int(v2)
-    maxi = max(num1,num2)
-    return(f"el numero maximo entre {int(v2)} y {int(v1)} es {maxi}")
+    if num1 > num2:
+        return f"el {num1} es el mayor"
+    else:
+        return f"el {num2} es el mayor"
 
 @app.route('/min/<v1>/<v2>')
 def minimo(v1,v2):
     num1 = int(v1)
     num2 = int(v2)
-    mini = min(num1,num2)
-    return(f"el numero minimo entre {int(v2)} y {int(v1)} es {mini}")
+    if num1 < num2:
+        return f"el {num1} es el menor"
+    else:
+        return f"el {num2} es el menor"
 
 
 if __name__ == '__main__':
@@ -73,5 +77,5 @@ if __name__ == '__main__':
     
     
     
-    
+    #investigar que son los formularios y que elementos se usan dentro del formularios
     
